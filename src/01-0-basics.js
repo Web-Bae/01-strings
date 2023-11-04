@@ -3,11 +3,16 @@
  */
 
 // 1. Define three string variables firstName, middleName, and lastName.
+var firstName = 'Geoffrey';
+var middleName = 'Alan';
+var lastName = 'White';
 
 // 2. Declare a function named logFullName that takes no arguments.
 function logFullName() {
   // 3. Using template literals, create another variable fullName that combines all three names.
+  var fullName = `${firstName} ${middleName} ${lastName}`;
   // 4. Print the fullName to the console.
+  console.log(fullName);
 }
 
 /**
@@ -15,12 +20,18 @@ function logFullName() {
  */
 
 // 1. Declare a variable named age and assign it a number.
+var age = 57;
 // 2. Declare a variable named isStudent and assign it a boolean value.
+var isStudent = true;
 // 3. Declare a variable named courses and assign it an array containing three string values representing courses e.g. "Math", "Science", "History".
+var courses = ['Math', 'Science', 'History'];
 
 // 4. Declare a function named logVariableTypes that takes no arguments.
 function logVariableTypes() {
   // 5. Print the type of each variable using the typeof operator.
+  console.log(typeof age);
+  console.log(typeof isStudent);
+  console.log(typeof courses);
 }
 
 /**
