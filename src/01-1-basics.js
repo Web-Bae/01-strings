@@ -3,12 +3,25 @@
  */
 
 // Define a variable named studentGrade that is of type number.
+let studentGrade = 70;
 
 function gradeCommentary() {
   // 1. If studentGrade is above or equal to 90, log "Excellent work!".
+  if (studentGrade >= 90) {
+    console.log('Excellent work!');
+  }
   // 2. If studentGrade is between 80 and 89 (inclusive), log "Good job!".
+  else if (studentGrade >= 80 && studentGrade <= 89) {
+    console.log('Good job!');
+  }
   // 3. If studentGrade is between 70 and 79 (inclusive), log "You passed.".
+  else if (studentGrade >= 70 && studentGrade <= 79) {
+    console.log('You passed.');
+  }
   // 4. If studentGrade is below 70, log "Needs improvement.".
+  else {
+    console.log('Needs improvement.');
+  }
 }
 
 /**
