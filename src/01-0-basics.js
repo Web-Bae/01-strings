@@ -39,28 +39,37 @@ function logVariableTypes() {
  */
 
 // 1. Using var, declare a variable named school and assign it a value of "Hogwarts".
+var school = 'Hogwarts';
 // 2. Using let, declare a variable named subject and assign it a value of "Potions".
+let subject = 'Potions';
 // 3. Using const, declare a variable named professor and assign it a value of "Snape".
+const professor = 'Snape';
 
 /**
  * Task 4: Basic Operators
  */
 
 // 1. Declare two variables x and y with values 5 and 10 respectively.
+const x = 5;
+const y = 10;
 
 function logAddition() {
   // 2. Log the sum of x and y.
+  console.log(x + y);
 }
 function logSubtraction() {
   // 3. Log the x subtracted from y
+  console.log(y - x);
 }
 
 function logMultiplication() {
   // 4. Log the product of x and y.
+  console.log(x * y);
 }
 
 function logDivision() {
   // 5. Log the quotient when x is divided by y.
+  console.log(x / y);
 }
 
 /**
