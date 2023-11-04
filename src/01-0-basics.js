@@ -84,4 +84,6 @@ let result2 = (3 + 4) * 5;
 
 function logResults() {
   // 3. Log both result values in your JavaScript environment and check your answers.
+  console.log(3 + 4 * 5);
+  console.log((3 + 4) * 5);
 }
