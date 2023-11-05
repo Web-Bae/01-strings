@@ -69,11 +69,13 @@ function triangle() {
 // 1. Declare a function named calculateArea that takes two arguments: length and width. It should return the area of a rectangle.
 function calculateArea(length, width) {
   // Your code here
+  return length * width;
 }
 
 // 2. Declare a function expression named greetPerson that takes a name as an argument and logs a greeting.
 var greetPerson = function (name) {
   // Your code here
+  console.log("Hello " + name + "!");
 };
 
 /**
