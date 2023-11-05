@@ -8,19 +8,19 @@ let studentGrade = 70;
 function gradeCommentary() {
   // 1. If studentGrade is above or equal to 90, log "Excellent work!".
   if (studentGrade >= 90) {
-    console.log('Excellent work!');
+    console.log("Excellent work!");
   }
   // 2. If studentGrade is between 80 and 89 (inclusive), log "Good job!".
   else if (studentGrade >= 80 && studentGrade <= 89) {
-    console.log('Good job!');
+    console.log("Good job!");
   }
   // 3. If studentGrade is between 70 and 79 (inclusive), log "You passed.".
   else if (studentGrade >= 70 && studentGrade <= 79) {
-    console.log('You passed.');
+    console.log("You passed.");
   }
   // 4. If studentGrade is below 70, log "Needs improvement.".
   else {
-    console.log('Needs improvement.');
+    console.log("Needs improvement.");
   }
 }
 
@@ -37,6 +37,11 @@ function logNumbers() {
 
 function countByTwos() {
   // 2. Using a while loop, log even numbers from 2 to 20.
+  let i = 2;
+  while (i <= 20) {
+    console.log(i);
+    i += 2;
+  }
 }
 
 function triangle() {
@@ -50,6 +55,11 @@ function triangle() {
     ######
     #######
   */
+  let i = 1;
+  while (i <= 7) {
+    console.log("#".repeat(i));
+    i++;
+  }
 }
 
 /**
