@@ -3,9 +3,9 @@
  */
 
 // 1. Define three string variables firstName, middleName, and lastName.
-var firstName = 'Geoffrey';
-var middleName = 'Alan';
-var lastName = 'White';
+var firstName = "Geoffrey";
+var middleName = "Alan";
+var lastName = "White";
 
 // 2. Declare a function named logFullName that takes no arguments.
 function logFullName() {
@@ -24,7 +24,7 @@ var age = 57;
 // 2. Declare a variable named isStudent and assign it a boolean value.
 var isStudent = true;
 // 3. Declare a variable named courses and assign it an array containing three string values representing courses e.g. "Math", "Science", "History".
-var courses = ['Math', 'Science', 'History'];
+var courses = ["Math", "Science", "History"];
 
 // 4. Declare a function named logVariableTypes that takes no arguments.
 function logVariableTypes() {
@@ -39,11 +39,11 @@ function logVariableTypes() {
  */
 
 // 1. Using var, declare a variable named school and assign it a value of "Hogwarts".
-var school = 'Hogwarts';
+var school = "Hogwarts";
 // 2. Using let, declare a variable named subject and assign it a value of "Potions".
-let subject = 'Potions';
+let subject = "Potions";
 // 3. Using const, declare a variable named professor and assign it a value of "Snape".
-const professor = 'Snape';
+const professor = "Snape";
 
 /**
  * Task 4: Basic Operators
