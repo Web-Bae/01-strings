@@ -36,10 +36,11 @@ function logNumbers() {
 
 function countByTwos() {
   // 2. Using a while loop, log even numbers from 2 to 20.
-  let i = 2;
-    while (i <= 2) {
-      console.log(i)
-    }
+  let i = 2
+    while (i <= 20) {
+    console. log(i);
+    i += 2;
+  }
 }
 
 function triangle() {
@@ -69,7 +70,7 @@ function calculateArea(length, width) {
 
   // Your code here
 if (length * width < 0) {
-  return Nan;
+  return NaN;
 }
 
   return length * width;
