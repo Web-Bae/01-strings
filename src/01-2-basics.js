@@ -1,5 +1,5 @@
 /**
- * Task 10: Create a Band Name Generator
+ * Task 10: Create a Band Name Generator 
  */
 
 // 1. Declare a function named generateBandName that takes two arguments: clothingColor and lastFoodEaten.
