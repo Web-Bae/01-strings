@@ -1,5 +1,5 @@
 /**
- * Task 10: Create a Band Name Generator
+ * Task 10: Create a Band Name Generator 
  */
 
 // 1. Declare a function named generateBandName that takes two arguments: clothingColor and lastFoodEaten.
@@ -18,15 +18,18 @@ function generateBandName(clothingColor, lastFoodEaten) {
     if (typeof word === "number") {
        return word.toString();
      }
-    if (typeof word !== "string" || word === "null") {
+    if (typeof word !== "string" || word === null) {
        return "";
      }
-     return word.charAt(0).toUpperCase() + word.slice(1).toLocaleLowerCase();
+     return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
    }
 
   // Construct the band name
   bandName =
    "The " + capitalizeFirstLetter(clothingColor) + " " + capitalizeFirstLetter(lastFoodEaten);
-}
+
+    return bandName;
+  }
+
 
 

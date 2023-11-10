@@ -1,4 +1,4 @@
-console.log("hi");
+console.log("hello");
 
 const clothingColor = document.querySelector("#clothing-color");
 const food = document.querySelector("#food");

@@ -1,5 +1,5 @@
 /**
- * Task 6: Control Structures - Conditional Statements
+ * Task 6: Control Structures - Conditional Statements /
  */
 
 // Define a variable named studentGrade that is of type number.

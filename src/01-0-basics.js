@@ -1,5 +1,5 @@
 /**
- * Task 1: String Manipulation
+ * Task 1: String Manipulation /
  */
 
 // 1. Define three string variables firstName, middleName, and lastName.
