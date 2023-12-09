@@ -1,0 +1,12 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": ["main"],
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.https": {
+        "enable": true,
+        "cert": "C:/Users/weird/Documents/Design/Dev/webbae-webflowJS-course/01-basics/https/localhost.pem",
+        "key": "C:/Users/weird/Documents/Design/Dev/webbae-webflowJS-course/01-basics/https/localhost.key",
+        "passphrase": "localhostssl"
+    }
+}
