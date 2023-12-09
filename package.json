@@ -1,20 +1,21 @@
 {
-  "name": "javascript-bae-01",
-  "version": "1.0.0",
-  "description": "01 Basics: primitive data types, variables, functions, control flow",
-  "scripts": {
-    "start": "npm install",
-    "test:local": "open SpecRunner.html",
-    "test:remote": "karma start"
-  },
-  "keywords": [],
-  "author": "Web Bae",
-  "license": "ISC",
-  "devDependencies": {
-    "jasmine": "^5.1.0",
-    "jasmine-core": "^5.1.1",
-    "karma": "^6.4.2",
-    "karma-chrome-launcher": "^3.2.0",
-    "karma-jasmine": "^5.1.0"
-  }
+    "name": "javascript-bae-01",
+    "version": "1.0.0",
+    "description": "01 Basics: primitive data types, variables, functions, control flow",
+    "scripts": {
+        "start": "npm install",
+        "test:localWin": "start SpecRunner.html",
+        "test:localMac": "open SpecRunner.html",
+        "test:remote": "karma start"
+    },
+    "keywords": [],
+    "author": "Web Bae",
+    "license": "ISC",
+    "devDependencies": {
+        "jasmine": "^5.1.0",
+        "jasmine-core": "^5.1.1",
+        "karma": "^6.4.2",
+        "karma-chrome-launcher": "^3.2.0",
+        "karma-jasmine": "^5.1.0"
+    }
 }
