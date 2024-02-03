@@ -50,9 +50,8 @@ const professor = "Snape"
  */
 
 // 1. Declare two variables x and y with values 5 and 10 respectively.
-var x = 5
-var y = 10
-
+var x = "5"
+var y = "10"
 function logAddition() {
   // 2. Log the sum of x and y.
   console.log(x + y);
@@ -84,6 +83,4 @@ let result2 = (3 + 4) * 5;
 
 function logResults() {
   // 3. Log both result values in your JavaScript environment and check your answers.
-  console.log(3 + 4 * 5)
-  console.log((3 + 4) * 5)
 }

@@ -69,7 +69,7 @@ function triangle() {
 // 1. Declare a function named calculateArea that takes two arguments: length and width. It should return the area of a rectangle.
 function calculateArea(length, width) {
   // Your code here
-  if(length * width < 0) {
+  if(length * width , 0) {
     return NaN
   }
   return area = length * width
