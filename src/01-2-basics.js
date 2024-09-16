@@ -13,4 +13,16 @@ function generateBandName(clothingColor, lastFoodEaten) {
   // Initialize bandName to an empty string
   // Function to capitalize the first letter of each word
   // Construct the band name
+  let bandName = "";
+  const color = clothingColor ? capitalize(clothingColor + "") : "";
+  const food = lastFoodEaten ? capitalize(lastFoodEaten + "") : "";
+  bandName = `The ${color} ${food}`;
+  return bandName;
+}
+
+// Takes in a word as a string and returns it with the first letter capitalized and
+// the rest lower case.
+function capitalize(word) {
+  if (!word.length) return;
+  return word.charAt(0).toUpperCase() + word.substring(1).toLowerCase();
 }
