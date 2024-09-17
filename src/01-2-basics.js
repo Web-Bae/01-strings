@@ -11,6 +11,24 @@
 function generateBandName(clothingColor, lastFoodEaten) {
   // Your code here
   // Initialize bandName to an empty string
+  
+  clothingColor = clothingColor ? formatWord(clothingColor) : "";
+  lastFoodEaten = lastFoodEaten ? formatWord(lastFoodEaten) :"";
+  let bandName = `The ${clothingColor} ${lastFoodEaten}`;
   // Function to capitalize the first letter of each word
   // Construct the band name
+  return bandName;
+}
+
+function formatWord(word) {
+  let ogWord = word.toString().toLowerCase()
+ let newWord = ""
+  for ( i=0 ; i <= ogWord.length - 1 ;i++) {
+ if (i===0){
+  newWord = `${ogWord.charAt(0).toUpperCase()}`
+ } else{
+newWord = newWord + ogWord.charAt(i);
+ }
+  }
+  return newWord
 }
