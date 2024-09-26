@@ -78,12 +78,10 @@ function logDivision() {
 
 // 1. Evaluate the following expression without using a calculator or running the code: 3 + 4 * 5.
 let result1 = 3 + 4 * 5;
-
+console.log(result1);
 // 2. Now, evaluate this: (3 + 4) * 5.
 let result2 = (3 + 4) * 5;
 
 function logResults() {
   // 3. Log both result values in your JavaScript environment and check your answers.
-  console.log(3 + 4 * 5)
-  console.log((3 + 4) * 5)
 }

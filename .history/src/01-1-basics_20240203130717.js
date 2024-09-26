@@ -30,22 +30,16 @@ function gradeCommentary() {
 function logNumbers() {
   // 1. Log numbers from 1 to 10 using a for loop.
   for (let i = 1; i <=10; i++) {
-    console.log(i);
+    console.log(i)
   }
 }
 
 function countByTwos() {
   // 2. Using a while loop, log even numbers from 2 to 20.
-  let i = 2;
-  while (i <= 20) {
-    console.log(i);
-    i +=2;
-
-  }
 }
 
 function triangle() {
-  // 3. Using loops, output a triangle of '#' characters
+  // 3. Using loops, output a traingle of '#' characters
   /*
     #
     ##
@@ -55,11 +49,6 @@ function triangle() {
     ######
     #######
   */
- let i = 1
- while (i <= 7) {
-  console.log("#".repeat(i));
-  i++;
- }
 }
 
 /**
@@ -69,18 +58,12 @@ function triangle() {
 // 1. Declare a function named calculateArea that takes two arguments: length and width. It should return the area of a rectangle.
 function calculateArea(length, width) {
   // Your code here
-  if(length * width < 0) {
-    return NaN
-  }
-  return area = length * width
- 
 }
 
 // 2. Declare a function expression named greetPerson that takes a name as an argument and logs a greeting.
-function greetPerson(name) {
+var greetPerson = function (name) {
   // Your code here
-  console.log(`Hello, ${name}!`);
-}
+};
 
 /**
  * Task 9: Objects and Properties
@@ -89,25 +72,19 @@ function greetPerson(name) {
 // 1. Declare an object named book with properties: title, author, and year.
 var book = {
   // Your properties here
-  title: "The Last Kingdom",
-  author: "Bernard Cromwell",
-  year: 1990
 };
 
 // 2. Log the book's title.
 function logBookTitle() {
   // Your code here
-  console.log(book.title)
 }
 
 // 3. Update the book's year to the current year.
 function updateYear() {
-  book.year = 2024
-
+  // Your code here
 }
 
 // 4. Add a new property to the book: genre, and assign it a value.
 function addGenre() {
   // Your code here
-  book.genre = "Historical";
 }

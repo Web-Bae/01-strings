@@ -69,12 +69,18 @@ function triangle() {
 // 1. Declare a function named calculateArea that takes two arguments: length and width. It should return the area of a rectangle.
 function calculateArea(length, width) {
   // Your code here
-  if(length * width < 0) {
-    return NaN
+  const area = length * width
+
+  if(area < 0) {
+    return NaN;
   }
-  return area = length * width
- 
+  return area;
 }
+
+calculateArea(5, 10);
+calculateArea(0, 10);
+calculateArea(-5, 10);
+
 
 // 2. Declare a function expression named greetPerson that takes a name as an argument and logs a greeting.
 function greetPerson(name) {
@@ -89,25 +95,19 @@ function greetPerson(name) {
 // 1. Declare an object named book with properties: title, author, and year.
 var book = {
   // Your properties here
-  title: "The Last Kingdom",
-  author: "Bernard Cromwell",
-  year: 1990
 };
 
 // 2. Log the book's title.
 function logBookTitle() {
   // Your code here
-  console.log(book.title)
 }
 
 // 3. Update the book's year to the current year.
 function updateYear() {
-  book.year = 2024
-
+  // Your code here
 }
 
 // 4. Add a new property to the book: genre, and assign it a value.
 function addGenre() {
   // Your code here
-  book.genre = "Historical";
 }
