@@ -4,7 +4,7 @@
   "description": "01 Basics: primitive data types, variables, functions, control flow",
   "scripts": {
     "start": "npm install",
-    "test:local": "open SpecRunner.html",
+    "test:local": "start SpecRunner.html",
     "test:remote": "karma start"
   },
   "keywords": [],
